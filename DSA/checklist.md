@@ -22,4 +22,24 @@
     Check if array is sorted
     Remove duplicates
     Move all zeroes to the end
+2. String:
+    String traversal	
+    Reverse string	
+    Palindrome	
+    Character frequency	
+    Anagram	
+    First non-repeating character	
+    Remove duplicates	
+    Reverse words	
+    Count vowels	
+    String compression	
+
+    1. Reverse a String
+    2. Check Palindrome
+    3. Count Vowels
+    4. Character Frequency
+    5. First Non-Repeating Character
+    6. Valid Anagram
+    7. Remove Duplicate Characters
+    8. Reverse Words in a String
 
