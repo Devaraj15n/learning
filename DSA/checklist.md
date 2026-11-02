@@ -43,3 +43,29 @@
     7. Remove Duplicate Characters
     8. Reverse Words in a String
 
+
+
+3. Two pointers:
+
+### Container With Most Water
+This is an important interview problem.
+[1, 8, 6, 2, 5, 4, 8, 3, 7]
+ ↑                       ↑
+ L                       R
+
+You calculate the area between the two pointers and move the pointer with the smaller height.
+
+This is a classic example where understanding why the pointer moves is more important than memorizing code.
+
+
+☐ What is Two Pointers?
+☐ Left and Right pointers
+☐ Opposite-direction pointers
+☐ Same-direction pointers
+☐ Reverse Array
+☐ Palindrome
+☐ Two Sum — Sorted Array
+☐ Move Zeroes
+☐ Remove Duplicates
+☐ Container With Most Water
+☐ Fast/Slow Pointer concept

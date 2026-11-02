@@ -301,3 +301,92 @@ this is very important:
 ```bash
 let complement =total - arr[i];
 ```
+
+
+### 12. First Non repeating Character:
+
+```javascript
+
+str="abcdde";
+
+
+const result=nonRepeatingString(str);
+
+function nonRepeatingString(str){
+  const map=new Map();
+  for(const char of str){
+    map.set(char,(map.get(char) || 0) + 1 );
+    
+  }
+
+  for(const char of str){
+    if(map.get(char) == 1){
+        return char;
+    }
+
+  }
+  return null;
+}
+
+```
+
+complexity:
+Time - O(n)
+Space - O(n)
+
+
+### 13. Anagram using Map:
+
+listen
+silent
+
+
+```javascript
+
+const str1="listen";
+const str2="silent";
+
+function isAnagram(str1,str2){
+    map=new Map();
+    for(const char of str1){
+        map.set(char,(map.get(char) || 0) + 1);
+    }
+
+    for(const char of str2){
+
+        if(!map.has(char) || map.get(char) ===0){
+            return false;
+        }
+        map.set(char,(map.get(char) -1));
+    }
+    return true;
+}
+
+const result=isAnagram(str1,str2);
+
+if(result){
+    console.log("The given string is Anagram");
+}else{
+    console.log("The given string is not Anagram");
+}
+
+```
+
+### 14. Objects vs Map:
+
+**Object:**
+
+```javascript
+const frequency ={}
+
+frequency["a"]=1;
+frequency["b"]=1;
+
+```
+**Map**:
+const frequency=new Map();
+
+
+frequency.set("a",1);
+frequency.set("b",2);
+
