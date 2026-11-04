@@ -272,3 +272,24 @@ This is an important interview problem.
 You calculate the area between the two pointers and move the pointer with the smaller height.
 
 This is a classic example where understanding why the pointer moves is more important than memorizing code.
+
+
+### Two Pointers vs Hash Map:
+Hash Map:
+- Unasorted Array.
+complexity:
+
+Time: O(n)
+Space: O(n)
+
+
+Two Pointers:
+- Sorted Array.
+
+complexity:
+
+Time: O(n)
+Space: O(1)
+
+
+
