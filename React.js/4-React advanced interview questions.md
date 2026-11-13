@@ -131,3 +131,24 @@ count is 1
 Click Me
 
 ```
+
+
+
+### React Fiber:
+- Internal Reconcilation Architecture.
+- Introduced in React 16.
+- Break rendering work into smaller units, prioritize updates and Scheduleing work efficiently.
+
+### Error Boundaries:
+
+
+
+### Hydration:
+
+
+
+### Server Side rendering 
+
+
+### Client Side rendering
+

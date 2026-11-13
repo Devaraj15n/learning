@@ -1129,3 +1129,41 @@ data();
 
 Button is clicked!
 
+### Shallow copy and deep copy;
+
+- shallow copy is reference of the acutal object
+- Deep copy is independent object.
+
+const User={
+    name:'Devaraj',
+    address:{
+        city:'chennai'
+    }
+};
+
+
+const shallowcopy={...User};
+
+const deepcopy=structuredClone(User);
+JSON.Parse(json.Stringify(User)); - Json Object.
+
+shallowcopy.address.city='Bangalore';
+deepcopy.address.city='Madurai';
+
+
+console.log(User.address.city);
+console.log(User.address.city);
+
+
+### Prototype Inheritance:
+- 
+
+
+### generators:
+
+
+
+### optional chaining?
+
+
+### Event delegation:
